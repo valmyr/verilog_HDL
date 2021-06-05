@@ -1,0 +1,9 @@
+module Projeto_01(input a, b, cin, output s, cout);
+	wire [2:0] x;
+	
+	U1 xor(x[0],a,b);
+	U2 xor(cout,cin,x[0]);
+	U3 and(x[1],cin,x[0]);
+	U4 and(x[2],a,b);
+	U5 or(s,x[1],x[2]);
+endmodule

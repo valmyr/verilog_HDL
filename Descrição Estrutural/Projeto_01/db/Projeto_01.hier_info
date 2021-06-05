@@ -1,0 +1,11 @@
+|Projeto_01
+a => U1.IN0
+a => U4.IN0
+b => U1.IN1
+b => U4.IN1
+cin => U2.IN1
+cin => U3.IN1
+s <= U5.DB_MAX_OUTPUT_PORT_TYPE
+cout <= U2.DB_MAX_OUTPUT_PORT_TYPE
+
+
