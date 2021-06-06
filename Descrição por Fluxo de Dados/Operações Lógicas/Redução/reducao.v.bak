@@ -1,0 +1,7 @@
+module reducao(input [3:0] a, output [3:0] s0,s1,s2,s3,s4);
+	assign	s0 = ~a;  	//~  			NOT
+	assign	s1 = &a;	// & 			AND
+	assign	s2 = |a;	// | 			OR
+	assign	s3 = ^a; 	// ^ 			XOR
+	assign	s4 =  ~^a;	//~^ ou ^~  		XNOR
+endmodule
