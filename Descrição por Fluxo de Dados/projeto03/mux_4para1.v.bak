@@ -1,0 +1,6 @@
+/*
+	Multiplexador de 4:1, onde a e b são as variáveis de seleção 
+*/
+module mux_4para1(input a,b,input [3] in,output s);
+	assign s = (~a)&(~b)&in[0] | (~a)&(b)&in[1] | a&(~b)&in[2] | a&b&in[3];
+endmodule

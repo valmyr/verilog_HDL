@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição por Fluxo de Dados/projeto03/mux_4para1.v
+source_file = 1, C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição por Fluxo de Dados/projeto03/db/mux_4para1.cbx.xml
+design_name = mux_4para1
+instance = comp, \s~output , s~output, mux_4para1, 1
+instance = comp, \in[1]~input , in[1]~input, mux_4para1, 1
+instance = comp, \a~input , a~input, mux_4para1, 1
+instance = comp, \in[3]~input , in[3]~input, mux_4para1, 1
+instance = comp, \b~input , b~input, mux_4para1, 1
+instance = comp, \in[2]~input , in[2]~input, mux_4para1, 1
+instance = comp, \s~0 , s~0, mux_4para1, 1
+instance = comp, \in[0]~input , in[0]~input, mux_4para1, 1
+instance = comp, \s~1 , s~1, mux_4para1, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
