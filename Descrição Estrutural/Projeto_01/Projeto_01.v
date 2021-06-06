@@ -1,6 +1,6 @@
 /*
 	*Projeto01.v
-	*Descrição:SOmador completo em verilog
+	*Descrição:SOmador completo em verilog.
 */
 module Projeto_01(input a, b, cin, output s, cout);
 	wire [2:0] x;

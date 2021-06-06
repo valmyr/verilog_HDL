@@ -1,6 +1,6 @@
 /*
 	*projeto02.v
-	*Descrição:Somador completo de 4-bits em verilog
+	*Descrição:Somador completo de 4-bits em verilog.
 */
 module projeto02(input [3:0] aa,bb, input ccin, output [3:0] ss, output ccout);
 	//projeto01(output s, cout, input a, b, cin)
