@@ -1,0 +1,11 @@
+/*
+	*projeto02.v
+	*Descrição:Somador completo de 4-bits em verilog
+*/
+module somador4B(input [3:0] a,b, input cin, output [3:0] s, output cout);
+	
+	somadorCompleto bit1(s[0],a[0],b[0],cin);
+	somadorCompleto bit2(s[1],a[1],b[1],s[0]);
+	somadorCompleto bit3(s[2],a[2],b[2],s[1]);
+	somadorCompleto bit4(s[3],a[3],b[3],s[2]);
+endmodule

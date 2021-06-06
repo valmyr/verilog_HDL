@@ -1,0 +1,59 @@
+# Reading pref.tcl
+# do Projeto_01_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição\ Estrutural/Projeto_01 {C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/Projeto_01.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:46:05 on Jun 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01" C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/Projeto_01.v 
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/simulation/modelsim/rtl_work/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vlog-9) Problem while writing internal20180930A file "C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/simulation/modelsim/rtl_work/_temp/vloghx82ti".
+# C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/Projeto_01.v(5): Verilog Compiler exiting
+# End time: 18:46:05 on Jun 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Projeto_01_run_msim_rtl_verilog.do line 8
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição\ Estrutural/Projeto_01 {C:/Users/valmy/Documents/GitHub/ve..."
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:46:34 on Jun 05,2021
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/simulation/modelsim/rtl_work/_lib.qdb): unable to open database file
+# End time: 18:46:35 on Jun 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# sqlite3_open_v2: No such file or directory
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:46:35 on Jun 05,2021
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/simulation/modelsim/rtl_work/_lib.qdb): unable to open database file
+# End time: 18:46:35 on Jun 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# sqlite3_open_v2: No such file or directory
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:47:43 on Jun 05,2021
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/simulation/modelsim/rtl_work/_lib.qdb): unable to open database file
+# End time: 18:47:43 on Jun 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# sqlite3_open_v2: No such file or directory
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:47:43 on Jun 05,2021
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição Estrutural/Projeto_01/simulation/modelsim/rtl_work/_lib.qdb): unable to open database file
+# End time: 18:47:44 on Jun 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# sqlite3_open_v2: No such file or directory

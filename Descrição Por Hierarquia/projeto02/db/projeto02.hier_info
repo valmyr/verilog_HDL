@@ -1,0 +1,73 @@
+|projeto02
+aa[0] => aa[0].IN1
+aa[1] => aa[1].IN1
+aa[2] => aa[2].IN1
+aa[3] => aa[3].IN1
+bb[0] => bb[0].IN1
+bb[1] => bb[1].IN1
+bb[2] => bb[2].IN1
+bb[3] => bb[3].IN1
+ccin => ccin.IN1
+ss[0] <= somadorCompleto:bit1.s
+ss[1] <= somadorCompleto:bit2.s
+ss[2] <= somadorCompleto:bit3.s
+ss[3] <= somadorCompleto:bit4.s
+ccout <= somadorCompleto:bit4.cout
+
+
+|projeto02|somadorCompleto:bit1
+s <= U1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= U5.DB_MAX_OUTPUT_PORT_TYPE
+a => U1.IN0
+a => U2.IN0
+a => U3.IN0
+b => U1.IN1
+b => U2.IN1
+b => U4.IN0
+cin => U1.IN2
+cin => U3.IN1
+cin => U4.IN1
+
+
+|projeto02|somadorCompleto:bit2
+s <= U1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= U5.DB_MAX_OUTPUT_PORT_TYPE
+a => U1.IN0
+a => U2.IN0
+a => U3.IN0
+b => U1.IN1
+b => U2.IN1
+b => U4.IN0
+cin => U1.IN2
+cin => U3.IN1
+cin => U4.IN1
+
+
+|projeto02|somadorCompleto:bit3
+s <= U1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= U5.DB_MAX_OUTPUT_PORT_TYPE
+a => U1.IN0
+a => U2.IN0
+a => U3.IN0
+b => U1.IN1
+b => U2.IN1
+b => U4.IN0
+cin => U1.IN2
+cin => U3.IN1
+cin => U4.IN1
+
+
+|projeto02|somadorCompleto:bit4
+s <= U1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= U5.DB_MAX_OUTPUT_PORT_TYPE
+a => U1.IN0
+a => U2.IN0
+a => U3.IN0
+b => U1.IN1
+b => U2.IN1
+b => U4.IN0
+cin => U1.IN2
+cin => U3.IN1
+cin => U4.IN1
+
+
