@@ -1,0 +1,6 @@
+module somadorComOperadoreAritmetico(input [3:0] a,b,input cin, output [3:0] s, output cout);
+	wire [4:0] somadorIntermediario;
+	assign somadorIntermerdiario = a + b + cin;
+	assign s = somadorIntermediario[3:0];
+	assign cout = somadorIntermediario[4];
+endmodule;
