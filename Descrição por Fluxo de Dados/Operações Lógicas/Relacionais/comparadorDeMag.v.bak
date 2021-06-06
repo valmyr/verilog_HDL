@@ -1,0 +1,5 @@
+module comapardorDeMag(input [3:0] a,b, output AeqB,AgtB,AltB);
+	assign AeqB = (a == b);
+	assign AgtB = (a > b);
+	assign AltB = (a < b);
+endmodule
