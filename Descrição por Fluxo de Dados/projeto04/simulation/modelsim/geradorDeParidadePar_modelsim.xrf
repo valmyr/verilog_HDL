@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição por Fluxo de Dados/projeto04/geradorDeParidadePar.v
+source_file = 1, C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição por Fluxo de Dados/projeto04/db/geradorDeParidadePar.cbx.xml
+design_name = geradorDeParidadePar
+instance = comp, \s~output , s~output, geradorDeParidadePar, 1
+instance = comp, \inp[0]~input , inp[0]~input, geradorDeParidadePar, 1
+instance = comp, \inp[2]~input , inp[2]~input, geradorDeParidadePar, 1
+instance = comp, \inp[3]~input , inp[3]~input, geradorDeParidadePar, 1
+instance = comp, \inp[1]~input , inp[1]~input, geradorDeParidadePar, 1
+instance = comp, \WideXor0~0 , WideXor0~0, geradorDeParidadePar, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
