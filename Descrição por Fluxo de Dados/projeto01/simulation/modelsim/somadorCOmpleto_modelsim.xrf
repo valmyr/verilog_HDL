@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição por Fluxo de Dados/projeto01/somadorCOmpleto.v
+source_file = 1, C:/Users/valmy/Documents/GitHub/verilog_HDL/Descrição por Fluxo de Dados/projeto01/db/somadorCOmpleto.cbx.xml
+design_name = somadorCOmpleto
+instance = comp, \s~output , s~output, somadorCOmpleto, 1
+instance = comp, \cout~output , cout~output, somadorCOmpleto, 1
+instance = comp, \a~input , a~input, somadorCOmpleto, 1
+instance = comp, \cin~input , cin~input, somadorCOmpleto, 1
+instance = comp, \b~input , b~input, somadorCOmpleto, 1
+instance = comp, \s~0 , s~0, somadorCOmpleto, 1
+instance = comp, \cout~0 , cout~0, somadorCOmpleto, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
