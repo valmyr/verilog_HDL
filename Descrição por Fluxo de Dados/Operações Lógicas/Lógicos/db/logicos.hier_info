@@ -1,0 +1,23 @@
+|logicos
+a[0] => WideOr0.IN0
+a[0] => WideNor0.IN0
+a[1] => WideOr0.IN1
+a[1] => WideNor0.IN1
+a[2] => WideOr0.IN2
+a[2] => WideNor0.IN2
+a[3] => WideOr0.IN3
+a[3] => WideNor0.IN3
+b[0] => WideOr1.IN0
+b[0] => WideNor1.IN0
+b[1] => WideOr1.IN1
+b[1] => WideNor1.IN1
+b[2] => WideOr1.IN2
+b[2] => WideNor1.IN2
+b[3] => WideOr1.IN3
+b[3] => WideNor1.IN3
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= WideNor1.DB_MAX_OUTPUT_PORT_TYPE
+
+

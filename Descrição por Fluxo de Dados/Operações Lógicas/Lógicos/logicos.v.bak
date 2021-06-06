@@ -1,0 +1,6 @@
+module logicos(input [3:0]  a, b, output [3:0] s);
+	assign s[0] = a || b;
+	assign s[1] = a && b;
+	assign s[2] = !a;
+	assign s[3] = !b;
+endmodule
