@@ -1,0 +1,6 @@
+module contadorDe4bits(input clock, output [3:0] out);
+	always @(posedge clock) begin
+	 out+=1;
+	end
+	
+endmodule
