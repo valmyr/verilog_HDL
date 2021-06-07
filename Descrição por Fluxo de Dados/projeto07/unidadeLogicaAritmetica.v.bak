@@ -1,0 +1,15 @@
+/*	Unidade Lógica-Aritmética em Verilog
+	Implemente, em FPGA e utilize o verilog, uma unidade lógica-aritmética de 4-bits que possua a tabela de operação apresentada ao lado
+	
+*/
+module unidadeLogicaAritmetica(input [2:0] seletor, input [3:0] A, B, output S);
+ assign S = (seletor == 0) ? A + B:
+				(seletor == 1) ? A - B:
+				(seletor == 2) ? A << B:
+				(seletor == 3) ? A >> B:
+				(seletor == 4) ? A and B:
+				(seletor == 5) ? A or B:
+				(seletor == 6) ? A xor B:
+				(seletor == 7) ? not(A):9;
+	
+endmodule
