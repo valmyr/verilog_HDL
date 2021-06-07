@@ -1,0 +1,24 @@
+module (input [2:0] seletor,input [3:0] I0,I1,I2,I3,I4,I5,I6,I7, output [3:0] outMux);
+	always@(seletor) begin
+		case(seletor) begin
+			0:begin
+				outMux = I0;
+			1:begin
+				outMux = I1;
+			2:begin
+				outMux = I2;
+			3: begin 
+				outMux = I3;
+			4: begin
+				outMux = I4;
+			5: begin
+				outMux = I5;
+			6:begin
+				outMux = I6;
+			7: begin 
+				outMux = I7;
+			default : begin
+				outMux = 0;
+		endcase
+	end
+endmodule 

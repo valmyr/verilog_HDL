@@ -1,0 +1,165 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outMux[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outMux[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outMux[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outMux[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seletor[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seletor[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seletor[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I3[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
