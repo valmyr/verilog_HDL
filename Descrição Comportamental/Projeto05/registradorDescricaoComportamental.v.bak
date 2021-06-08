@@ -1,0 +1,18 @@
+/*
+	Registrador de carga paralela
+	Descreva um registrador de carga paralela de 4 bits em Verilog utilzando
+	a abordagem comportamental. O registrador possui uma entrada ld, que quando
+	ld = 1, deve-se efetuar a carga no registrador. Caso contrário(ld = 0), 
+	o último valor é mantido. O registrador é sensível à borda de descida do relógio.
+	
+*/
+module registradorDescricaoComportamental(input [3:0] d, input clock, ld, output reg [3:0] Q);
+	always@(negedge clock, ld);
+		if(ld == 1) begin 
+			Q = d;
+		end
+		else begin
+			Q = Q;
+		end
+	end
+endmodule
