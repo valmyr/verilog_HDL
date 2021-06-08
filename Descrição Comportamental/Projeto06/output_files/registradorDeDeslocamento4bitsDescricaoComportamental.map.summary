@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jun 08 17:25:28 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : registradorDeDeslocamento4bitsDescricaoComportamental
+Top-level Entity Name : registradorDeDeslocamento4bitsDescricaoComportamental
+Family : Cyclone IV E
+Total logic elements : 16
+    Total combinational functions : 16
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 13
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
