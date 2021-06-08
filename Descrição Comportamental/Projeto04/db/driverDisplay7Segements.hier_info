@@ -1,0 +1,14 @@
+|driverDisplay7Segements
+inDriver[0] => Decoder0.IN3
+inDriver[1] => Decoder0.IN2
+inDriver[2] => Decoder0.IN1
+inDriver[3] => Decoder0.IN0
+outDisp[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+outDisp[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+outDisp[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+outDisp[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+outDisp[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+outDisp[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+outDisp[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outDisp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outDisp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outDisp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outDisp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outDisp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outDisp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outDisp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "inDriver[0]",
+					"strict" : false
+				},
+				{
+					"name" : "inDriver[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inDriver[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inDriver[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
