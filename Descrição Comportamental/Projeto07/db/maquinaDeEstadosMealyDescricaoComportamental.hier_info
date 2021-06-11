@@ -1,0 +1,10 @@
+|maquinaDeEstadosMealyDescricaoComportamental
+in => Decoder0.IN0
+in => Equal0.IN3
+in => currentState[0].DATAIN
+clock => currentState[0].CLK
+clock => currentState[1].CLK
+reset => ~NO_FANOUT~
+out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

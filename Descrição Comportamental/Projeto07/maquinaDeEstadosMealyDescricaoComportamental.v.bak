@@ -1,0 +1,25 @@
+module maquinaDeEstadosMealyDescricaoComportamental(input in,clock,reset, output out);
+	reg [1:0] nextState, currentState; 
+	always({currentStat,in}) begin 
+		///next state
+		case ({currentStat,in})
+			3'b000: nextState <= 2'b00;
+			3'b001: nextState <= 2'b01;
+			3'b010: nextState <= 2'b10;
+			3'b011: nextState <= 2'b01;
+			3'b100: nextState <= 2'b00;
+			3'b101: nextState <= 2'b11;
+			3'b110: nextState <= 2'b01;
+			3'b111: nextState <= 2'b10;				
+		endcase	
+		//output Logic
+		if({currentState,in} == 3'b110) out <= 1;
+		else	out <= 0;
+	end
+	//Reg
+	always(posedge clock || reset) begin
+		if(reset) currentState <= 0;
+		else 
+			currentState <= nextState;
+	end
+endmodule
