@@ -1,0 +1,22 @@
+|fsmMoore
+clock => currentState~1.DATAIN
+inp => nextState.s2.DATAB
+inp => nextState.s4.DATAB
+inp => Selector1.IN1
+inp => Selector2.IN1
+inp => Selector0.IN1
+inp => nextState.s3.DATAB
+inp => nextState.s6.DATAB
+inp => nextState.s8.DATAB
+reset => currentState.OUTPUTSELECT
+reset => currentState.OUTPUTSELECT
+reset => currentState.OUTPUTSELECT
+reset => currentState.OUTPUTSELECT
+reset => currentState.OUTPUTSELECT
+reset => currentState.OUTPUTSELECT
+reset => currentState.OUTPUTSELECT
+reset => currentState.OUTPUTSELECT
+reset => currentState.OUTPUTSELECT
+outp <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,32 @@
+module fsmMoore(input clock, inp, output outp);
+	parameter [3:0] s0 = 4'b0000,
+						 s1 = 4'b0001,
+						 s2 = 4'b0010,
+						 s3 = 4'b0011,
+						 s4 = 4'b0100,
+						 s5 = 4'b0101,
+						 s6 = 4'b0110,
+						 s7 = 4'b0111,
+						 s8 = 4'b1000;
+	reg [3:0] currentState, nextState;
+	//registrador com FFD
+	always@(posedge clock) begin
+		currentState <= reset ? S0 : nextState;
+	end
+	//output logic
+	assign outp = (currentState == s8) || (currentState == s4) ? 1 : 0;
+	//nextState
+	always@(inp) begin
+		case(currentState)
+			s0: currentState  = inp ?(s5) : (s1);
+			s1: currentState  = inp ?(s2) : (s1);
+			s2: currentState  = inp ?(s5) : (s3);
+			s3: currentState  = inp ?(s4) : (s1);
+			s4: currentState  = inp ?(s5) : (s1);
+			s5: currentState  = inp ?(s5) : (s6);
+			s6: currentState  = inp ?(s7) : (s1);
+			s7: currentState  = inp ?(s5) : (s8);
+			s8: currentState  = inp ?(s7) : (s1);
+		endcase
+	end
+endmodule
