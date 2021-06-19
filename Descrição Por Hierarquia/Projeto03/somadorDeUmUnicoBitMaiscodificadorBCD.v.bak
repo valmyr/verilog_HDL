@@ -1,0 +1,4 @@
+module somadorDeUmUnicoBitMaiscodificadorBCD(input a,b,output [7:0] outp);
+
+	
+endmodule

@@ -1,0 +1,3 @@
+module somador1bit(input a,b output s0,s1);
+	assign {s1,s0} = a + b;
+endmodule

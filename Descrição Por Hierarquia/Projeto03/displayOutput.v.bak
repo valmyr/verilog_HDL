@@ -1,0 +1,10 @@
+module displayOutout(input s0,s1,output [7:0]outDisp);
+	always@(*)begin
+		case({s0,s1})
+			0: outDisp = 8'b0111111;
+			1: outDisp = 8'b0000110;
+			2: outDisp = 8'b1011011;
+	default: outDisp = 8'b1000000;
+ 		endcase
+	end 
+endmodule
