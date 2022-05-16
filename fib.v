@@ -9,7 +9,7 @@ module regis(input clk,reset, input  [10:0]d, output reg [10:0] q);
   end 
 endmodule
 
-module fib(input clk,reset, output reg [6:0] outp1,outp2,outp3,outp4,num);
+module fib(input clk,reset, output reg [6:0] outp1,outp2,outp3,outp4);
   reg [10:0] d1 = 1, d2 =1;
   reg [10:0] q1, q2;
   wire cout;
@@ -21,14 +21,13 @@ module fib(input clk,reset, output reg [6:0] outp1,outp2,outp3,outp4,num);
   disp dis2(dig2,outp2);
   disp dis3(dig3,outp3);
   disp dis4(dig4,outp4);
-  always@(posedge clk) begin
-	d2 = d1;
+  always @(posedge clk) begin
+    d2 = d1;
     d1 = A;
-   	dig4 = d2%10;
+    dig4 =  (d2%10);
     dig3 = (d2/10)%10;
     dig2 = (d2/100)%10;
     dig1 = (d2/1000)%10;    
-    num =d2;
     if(d2 > 9999) begin
       d1 = 1;
       d2 = 1;
